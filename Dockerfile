@@ -34,3 +34,4 @@ RUN terraform init
 
 CMD ["/bin/bash"]
 
+# 테스트용 주석 추가
