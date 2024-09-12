@@ -22,7 +22,7 @@ jobs:
         
     - name: Build and push
       id: docker_build
-      uses: docker/build-push-action@ghcr.io
+      uses: docker/build-push-action@v1
       with:
         push: true
         tags: acadi9/terrraimg-action:latest
