@@ -27,4 +27,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ghcr.io/acadi9/terrraimg-action:0.1
+        tags: ghcr.io/acadi9/terrraimg-action:${{ github.run_number }}
