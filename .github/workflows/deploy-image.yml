@@ -25,4 +25,4 @@ jobs:
       uses: docker/build-push-action@v1
       with:
         push: true
-        tags: ghcr.io/acadi9/terrraimg-action:0.1
+        tags: acadi9/terrraimg-action:0.1
