@@ -18,7 +18,7 @@ jobs:
       with:
         registry: ghcr.io
         username: acadi9
-        password: ${{ CONTAINER_TOKEN }}
+        password: $CONTAINER_TOKEN
         
     - name: Build and push
       id: docker_build
