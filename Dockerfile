@@ -32,6 +32,6 @@ RUN ./aws/install
 WORKDIR /terraform
 RUN terraform init
 
-CMD ["/bin/bash"]
+CMD ["/bin/sh", "-ec", "while :; do echo 'hello'; sleep 10 ; done"]
 
 # 테스트용 주석 추가
